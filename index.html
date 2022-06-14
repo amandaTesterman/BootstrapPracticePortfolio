@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdn.tlm.cloud/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Amanda Testerman</title>
+</head>
+
+<body>
+    <!--here is the container for my page-->
+    <div class="container-fluid">
+        <!--here is the navbar-->
+        <nav class="row navbar bg-faded sticky-top" style="background-color:var(--cyan); color:var(--teal);">
+            <!--title in nav bar-->
+            <div class="col-md-6 text-md-left text-center">
+                <span class="h1">Amanda Testerman</span>
+            </div><!-- end of title in nav bar-->
+            <!--start of nav links-->
+            <div class="col-md-6 navbar-expand">
+                <ul class="navbar-nav justify-content-md-end justify-content-center">
+                    <li class="nav-item"><a class="nav-link text-blue" href="#homeSection">Home</a></li>
+                    <li class="nav-item"><a class="nav-link text-blue" href="#portfolioSection">Portfolio</a></li>
+                    <li class="nav-item"><a class="nav-link text-blue" href="#aboutSection">About</a></li>
+                    <li class="nav-item"><a class="nav-link text-blue" href="#contactSection">Contact</a></li>
+                </ul>
+            </div>
+            <!--end of nav links-->
+        </nav>
+        <!--end of navbar-->
+        <!--start of profile picture-->
+        <div id="homeSection" class="row seeTitle">
+            <div class="col-md-12 text-center ">
+                <img class="img-fluid" id="profilePic" src="images/dancer.jpeg" alt="dancer">
+            </div>
+        </div>
+        <!--end of img row-->
+        <!--here is my name under profile pic-->
+        <div class="row text-center">
+            <h1 class="col-12" id="profileName">Amanda Testerman</h1>
+        </div>
+        <!--end name div-->
+        <!--here is job titel under profile name-->
+        <div class="row text-center">
+            <p class="col-12">Software Engineer and Web Developer</p>
+        </div>
+        <!--here is thge start of my Portfolio  section-->
+        <!-- Portfolio  title section -->
+        <section id="portfolioSection" class="row seeTitle startSection">
+            <div class="text-center col-12" style="background-color:var(--cyan); color:var(--teal);">
+                <h1 class="display-4 pageTitle">Portfolio</h1>
+            </div>
+        </section>
+        <!--end of portfolio title section-->
+        <!--here are the Portfolio project pictures-->
+        <div class="text-center padding">
+            <img class="img-fluid mt-4 col-md-3" src="images/laptop.jpg" alt="laptop">
+            <img class="img-fluid mt-4 col-md-3" src="images/mobile_phone.jpg" alt="mobile phone">
+            <img class="img-fluid mt-4 col-md-3" src="images/pink_laptop.jpg" alt="pink tinted laptop pic">
+            <img class="img-fluid mt-4 col-md-3" src="images/tablet.jpg" alt="tablet">
+            <img class="img-fluid mt-4 col-md-3" src="images/thumbs_up.jpg" alt="girl with phone">
+            <img class="img-fluid mt-4 col-md-3" src="images/web_plan.jpg" alt="web plans">
+        </div>
+        <!--end of Portfolio pictures-->
+        <!-- About title section-->
+        <section id="aboutSection" class="row seeTitle startSection">
+            <div class="text-center col-12" style="background-color:var(--cyan); color:var(--teal);">
+                <h1 class="display-4 pageTitle">About</h1>
+            </div>
+        </section>
+        <!--end of About title section-->
+        <!--here is the start of the text papragraphs for About Me section-->
+        <div class="container padding">
+            <!--row for text paragraphs-->
+            <div class="row justify-content-center startSection">
+                <div class="col-md-5 text-left">
+                    <p>I am currently under the instruction of The Last Mile program at Mable Bassett Correctional
+                        Center. I
+                        have mastered HTML and CSS languages and have learned and am refining my Javascript skills. I
+                        have
+                        utilized bootstrap libraries into some of my projects and continue to be open to new ideas in
+                        all
+                        areas of programming. I am looking forward to my education with JQuery and diving deeper into Javascript. I am excited to creat my first App from the many ideas I have and look forward to the learning and creative process.</p>
+                </div>
+                <div class="col-md-5 text-left">
+                    <p> I have created a guided multipage website, put together a few home pages as class projects and
+                        am
+                        currently putting together my first multipage portfolio website for myself. I have utilized
+                        javascript functions and object methods in a few smaller class projects and have recently
+                        learned
+                        prototypical inheritance and am learning to implement it into personal projects. I have created simple game logic for an assignment and continue to create needed functions for class exercises.</p>
+                </div>
+            </div>
+            <!--end row for text paragraphs-->
+            <!--row for download buttons-->
+            <div class="row justify-content-center">
+                <div class="col-md-5">
+                    <button type="submit" class="btn form-control startSection"
+                        style="background-color:var(--cyan); color:var(--teal);">Download Resume PDF</button>
+                </div>
+                <div class="col-md-5">
+                    <button type="submit" class="btn form-control startSection"
+                        style="background-color:var(--cyan); color:var(--teal);">Download Resume DOCX</button>
+                </div>
+            </div><!-- end row for download buttons-->
+        </div>
+        <!--end of About section-->
+        <!-- Co0ntact title section-->
+        <section id="contactSection" class="row seeTitle startSection">
+            <div class="text-center col-12" style="background-color:var(--cyan); color:var(--teal);">
+                <h1 class="display-4 pageTitle">Contact Me</h1>
+            </div>
+        </section>
+        <!--end of Contact Me title section-->
+        <!--here is the beginning of the form for the Contact section-->
+        <form class="padding"> 
+            <!--this is the name input row-->
+            <div class="row justify-content-center">               
+                <div class="form-group col-md-7 startSection">
+                    <label>Name</label>
+                    <input type="text" class="form-control">
+                </div>
+            </div>
+            <!--end name input row-->
+            <!--here is the email input row-->
+            <div class="row justify-content-center">
+                <div class="form-group col-md-7 ">
+                    <label>Email Address</label>
+                    <input type="email" class="form-control">
+                </div>
+            </div>
+            <!--end email input row-->
+            <!--phone number input row-->
+            <div class="row justify-content-center">
+                <div class="form-group col-md-7 ">
+                    <label>Phone Number</label>
+                    <input type="text" class="form-control">
+                </div>
+            </div>
+            <!--end [phone number input row-->
+            <!--Here is the message input row-->
+            <div class="row justify-content-center">
+                <div class="form-group col-md-7 ">
+                    <label>Message</label>
+                    <textarea name="message" rows="4" class="form-control"></textarea>
+                </div>
+            </div>
+            <!--end of message box row-->
+            <!--here is the row for the submit/send button-->
+            <div class="row justify-content-center">
+                <!-- I liked this button in the middle and not to the left I feel it looks better symetricaly here-->
+                <div class="form-group">
+                    <button type="submit" class="btn"
+                        style="background-color:var(--cyan); color:var(--teal);">Send</button>
+                </div>
+            </div>
+        </form>
+        <!--end of Contact Me form section-->
+        <!--here is the beginning of my footer section-->
+        <div class="row" style="background-color:var(--cyan); color:var(--teal);">
+            <!--section for location info-->
+            <div class="col-md-4 startSection text-center">
+                <h5 class="text-center">LOCATION</h5>
+                <dd>29501 Kickapoo Rd<br>McLoud, OK 74851</dd>
+            </div>
+            <!--section for personal web links-->
+            <div class="col-md-4 startSection text-center">
+                <h5 class="text-center">AROUND THE WEB</h5>
+                <dd>
+                    <!--links-->
+                    <a href="#"><img src="images/facebook.png"></a>
+                    <a href="#"><img src="images/google.png"></a>
+                    <a href="#"><img src="images/twitter.png"></a>
+                </dd>
+            </div>
+            <!--for the about company ifo-->
+            <div class="col-md-4 startSection text-center">
+                <h5 class="text-center">ABOUT THE LAST MILE</h5>
+                <dd>Changing lives one coding lesson at a time. Placing the world at the fingertips of those
+                    temporarily tucked away.</dd>
+            </div>
+        </div>
+        <!--end of footer section-->
+        <!--copyright section-->
+        <div class="row" style="background-color:var(--teal); color:var(--cyan);">
+            <div class="col-12 text-center">
+                <p>Copyright &copy; Amanda Testerman 2021</p>
+            </div>
+        </div>
+    </div><!-- here is the end of my container-->
+    <script src="https://cdn.tlm.cloud/jquery/3.3.1/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.tlm.cloud/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.tlm.cloud/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
